@@ -1,11 +1,21 @@
 <template>
-    <div class="cotainer mx-auto lg:px-24 sm:px-12">
-        <div class="flex justify-between">
-            <div>
-                <h1>Dentsu</h1>
+    <div class="cotainer mx-auto px-2 sm:px-12 md:px-24 xl:px-72 py-2">
+        <div class="flex justify-between items-center">
+            <div class="">
+                <h1 class="text-xl font-bold">Dentsu</h1>
             </div>
-            <div>
-                <h1>Indonesia</h1>
+            <div class=" w-full grid justify-items-end">
+              <div class="">
+                <a class="mr-5">Beranda</a>
+                <a class="mr-5">Bantuan</a>
+                <a class="mr-5">Tentang Kami</a>
+                <a class="mr-5">Artikel</a>
+                <a class="mr-5">Fitur</a>
+                <button class="border border-green-900 rounded-lg px-3 py-1 mr-3 ml-3 hover:bg-green-900 hover:text-white">English</button>
+                <button class="border border-green-900 rounded-lg px-3 py-1 hover:bg-green-900 hover:text-white">Get the app</button>
+              </div>
+              <div>
+              </div>
             </div>
         </div>
     </div>

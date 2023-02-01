@@ -1,0 +1,26 @@
+<template>
+  <div class="mb-5">
+    <div>
+      <img class="rounded" src="../assets/img/photo.jpg"/>
+    </div>
+    <div class="pt-3">
+      <div class="flex justify-end">
+        <button class="text-white bg-green-500 px-4 py-1 rounded">Healthy Eating</button>
+      </div>
+      <div class="mt-2">
+        <h6 class="my-3 text-lg font-semibold  text-white">Apa Itu Sugar Craving dan Cara Mengelolanya?</h6>
+        <a class="font-bold text-white">Selengkapnya</a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+
+export default {
+name: "SecondaryCard"
+}
+
+</script>
+
+<style></style>
