@@ -10,13 +10,17 @@
       </div>
       <div class="mt-2">
         <h6 class="my-3 text-xl font-semibold">Apa Itu Sugar Craving dan Cara Mengelolanya?</h6>
-        <a class="font-bold text-gray-500">Selengkapnya</a>
+        <r to="/detail">
+          <router-link to="/detail" class="font-bold text-gray-500">Selengkapnya</router-link>
+        </r>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+
+
 
 export default {
 name: "MainCard"

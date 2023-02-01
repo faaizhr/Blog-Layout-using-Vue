@@ -1,5 +1,5 @@
 <template>
-    <div class="cotainer mx-auto px-2 sm:px-12 md:px-24 xl:px-72 py-2">
+    <div class="container mx-auto py-10">
         <div class="flex justify-between items-center">
             <div class="">
                 <h1 class="text-xl font-bold">Dentsu</h1>

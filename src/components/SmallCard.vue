@@ -11,7 +11,7 @@
       </div>
       <div>
         <h6 class="my-3 text-xl font-semibold">Apa Itu Sugar Craving dan Cara Mengelolanya?</h6>
-        <a class="font-bold text-gray-500">Selengkapnya</a>
+        <router-link to="/detail" class="font-bold text-gray-500">Selengkapnya</router-link>
       </div>
     </div>
   </div>

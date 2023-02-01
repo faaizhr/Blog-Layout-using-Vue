@@ -9,7 +9,7 @@
       </div>
       <div class="mt-2">
         <h6 class="my-3 text-lg font-semibold  text-white">Apa Itu Sugar Craving dan Cara Mengelolanya?</h6>
-        <a class="font-bold text-white">Selengkapnya</a>
+        <router-link to="/detail" class="font-bold text-white">Selengkapnya</router-link>
       </div>
     </div>
   </div>

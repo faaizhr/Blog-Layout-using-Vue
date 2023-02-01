@@ -8,13 +8,14 @@ import SmallCard from '../components/SmallCard.vue'
 import SecondaryCard from '../components/SecondaryCard.vue'
 import Footer from '../components/Footer.vue'
 
+
 </script>
 
 <template>
   <div class="backgroundColor">
     <Navbar/>
     <Path/>
-    <div class="mx-auto px-2 sm:px-12 md:px-24 xl:px-72 mb-20">
+    <div class="mx-auto container mb-20">
       <div class="flex justify-between items-center">
         <h1 class="py-5 text-3xl font-bold inline">Bacaan Untukmu</h1>
         <input type="text" placeholder="CARI..." class="rounded-xl px-4 py-2 border border-green-900 bg-transparent"/>
