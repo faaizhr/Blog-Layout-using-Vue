@@ -1,22 +1,43 @@
 <script setup>
-// import TheWelcome from '../components/TheWelcome.vue'
-import Navbar from '../components/Navbar.vue'
-import Path from '../components/Path.vue';
-import MainArticleContainer from '../components/MainArticleContainer.vue'
-import MainCard from '../components/MainCard.vue';
-import SmallCard from '../components/SmallCard.vue'
-import SecondaryCard from '../components/SecondaryCard.vue'
-import Footer from '../components/Footer.vue'
 
-
+  import Navbar from '../components/Navbar.vue'
+  import Path from '../components/Path.vue';
+  import MainArticleContainer from '../components/MainArticleContainer.vue'
+  import MainCard from '../components/MainCard.vue';
+  import SmallCard from '../components/SmallCard.vue'
+  import SecondaryCard from '../components/SecondaryCard.vue'
+  import Footer from '../components/Footer.vue'
+  import { BiEyeFill } from "oh-vue-icons/icons";
 </script>
 
 <template>
-  <div>
+  <div class="backgroundColor">
     <Navbar/>
-    <Path/>
-    <div class="container mx-auto my-20">
-      <div>
+    <div class=" container mx-auto py-1 text-sm">
+     <p><router-link to="/">Beranda </router-link>> <b>Artikel</b> > <b>Apa Itu Sugar Craving dan Cara Mengelolanya?</b></p>
+    </div>
+    <div class="container mx-auto my-20 grid grid-cols-9">
+
+      <div class="col-span-2 sticky">
+        <div class="sticky top-10">
+          <p class="mb-3">Share:</p>
+          <div>
+            <div class="w-10 h-10 border border-black rounded-full px-2 py-2 mb-3">
+              <font-awesome-icon icon="fa-link"/>
+            </div>
+            <div class="w-10 h-10 border border-black rounded-full px-3 py-2 mb-3">
+              <font-awesome-icon icon="fa-brands fa-facebook"/>
+            </div>
+            <div class="w-10 h-10 border border-black rounded-full px-3 py-2 mb-3">
+              <font-awesome-icon icon="fa-brands fa-twitter" />
+            </div>
+            <div class="w-10 h-10 border border-black rounded-full px-3 py-2 mb-3">
+              <font-awesome-icon icon="fa-brands fa-whatsapp"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-7">
         <div class="grid grid-cols-5">
           <div class="border-r border-black ">
             <h6>Ditulis oleh:</h6>
@@ -33,18 +54,24 @@ import Footer from '../components/Footer.vue'
         </div>
         <div>
           <h1 class="mt-10 font-bold text-4xl leading-normal">Apa Itu Sugar Craving dan Cara Mengelolanya?</h1>
+          <div class="mt-10 flex justify-between">
+            <p class="text-sm">Durasi membaca: 3,996 menit</p>
+            <div class="flex items-center">
+              <font-awesome-icon icon="fa-eye"/>
+              <p class="ml-3">76</p>
+            </div>
+          </div>
           <img class="rounded-xl mt-5" src="../assets/img/photo.jpg"/>
         </div>
-      </div>
-      <div class="">
-        <p class="mt-5">Salah satu alasan mengapa penting untuk mengenal apa itu sugar craving adalah, fakta bahwa kondisi ini dapat memicu meningkatnya risiko obesitas dan masalah kesehatan lainnya. 
+        <div class="">
+          <p class="mt-5">Salah satu alasan mengapa penting untuk mengenal apa itu sugar craving adalah, fakta bahwa kondisi ini dapat memicu meningkatnya risiko obesitas dan masalah kesehatan lainnya. 
         <br/><br/>
         Sebuah kajian yang dimuat dalam jurnal ​Obesity Facts menyebutkan bahwa mengonsumsi yang manis-manis dapat berkontribusi pada peningkatan berat badan. Ini dapat terjadi pada anak-anak maupun orang dewasa. 
         <br/><br/>
         Menurut data dari ​Statista di tahun 2021, konsumsi gula di Indonesia adalah 27,5 kg per kapita. Jumlah ini disebutkan akan terus naik. Sementara itu, data dari ​Riset Kesehatan Dasar (Riskesdas) 2018 juga menunjukkan ada peningkatan kasus obesitas dari 14,8% (2013), menjadi 21,8% (2018). 
-        </p>
-        <h6 class="text-lg font-bold my-4">Apa Itu Sugar Craving?</h6>
-        <p>
+      </p>
+      <h6 class="text-lg font-bold my-4">Apa Itu Sugar Craving?</h6>
+      <p>
           Ringkasnya, sugar craving dapat diartikan sebagai kondisi di mana kamu merasa ​ngidam atau ingin makan/minum yang manis-manis. Adapun dorongan untuk mengonsumsi makanan dan minuman manis ini bisa muncul kapan saja. 
           <br/><br/>
           Kondisi ini juga tidak hanya terjadi karena kamu sedang lapar. Ngidam manis bahkan bisa muncul beberapa saat setelah kamu baru saja selesai makan besar.  
@@ -53,6 +80,7 @@ import Footer from '../components/Footer.vue'
         </p>
       </div>
     </div>
+  </div>
     <div class="mx-auto px-2 sm:px-12 md:px-24 xl:px-72 bg-black py-20 rounded-b-3xl">
       <h1 class="text-3xl font-bold inline text-white">Artikel Lainnya</h1>
       <div class="container grid grid-cols-3 gap-5 mt-20">

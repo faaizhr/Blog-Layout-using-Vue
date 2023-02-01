@@ -14,7 +14,9 @@ import Footer from '../components/Footer.vue'
 <template>
   <div class="backgroundColor">
     <Navbar/>
-    <Path/>
+    <div class=" container mx-auto py-1 text-sm">
+     <p><router-link to="/">Beranda </router-link>> <b>Artikel</b></p>
+    </div>
     <div class="mx-auto container mb-20">
       <div class="flex justify-between items-center">
         <h1 class="py-5 text-3xl font-bold inline">Bacaan Untukmu</h1>
@@ -40,7 +42,7 @@ import Footer from '../components/Footer.vue'
           <option></option>
         </Select>
       </div>
-      <div class="container grid grid-cols-3 gap-5 mt-20">
+      <div class="container grid grid-cols-3 gap-10 mt-20">
         <SecondaryCard/>
         <SecondaryCard/>
         <SecondaryCard/>
