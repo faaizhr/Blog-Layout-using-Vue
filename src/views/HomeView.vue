@@ -52,8 +52,8 @@ export default {
 
 <template>
   <div class="backgroundColor">
-    <div class="px-6 sm:px-12 md:px-24 xl:px-72">
-      <Navbar/>
+    <Navbar/>
+    <div class="px-6 sm:px-8 md:px-8 xl:px-72">
       <div class="py-1 text-sm">
        <p><router-link to="/">Beranda </router-link>> <b>Artikel</b></p>
       </div>
@@ -76,7 +76,7 @@ export default {
         
       </div>
     </div>
-    <div class="mx-auto px-6 sm:px-12 md:px-24 xl:px-72 bg-black py-20 rounded-b-3xl">
+    <div class="mx-auto px-6 sm:px-8 md:px-8 xl:px-72 bg-black py-20 rounded-b-3xl">
       
       <div class="my-10 grid grid-cols-1 md:grid-cols-2 mb-10 items-center h-10 z-10">
         <h1 class="text-3xl text-center md:text-left mb-5 md:mb-0 font-bold inline text-white">Artikel Lainnya</h1>
@@ -106,6 +106,9 @@ export default {
         <SecondaryCard/>
         <SecondaryCard/>
         <SecondaryCard/>
+      </div>
+      <div class="flex justify-center mt-10">
+        <button class="bg-white px-5 py-1 rounded-lg ">Load More</button>
       </div>
     </div>
     <Footer/>

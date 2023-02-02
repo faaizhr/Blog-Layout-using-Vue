@@ -13,12 +13,12 @@
 <template>
   <div class="backgroundColor">
     <Navbar/>
-    <div class=" container mx-auto py-1 text-sm">
+    <div class=" px-6 sm:px-8 md:px-8 xl:px-72 mx-auto py-1 text-sm">
      <p><router-link to="/">Beranda </router-link>> <b>Artikel</b> > <b>Apa Itu Sugar Craving dan Cara Mengelolanya?</b></p>
     </div>
-    <div class="container mx-auto my-20 grid grid-cols-9">
+    <div class="px-6 sm:px-8 md:px-8 xl:px-72 mx-auto my-20 grid grid-cols-1 md:grid-cols-9">
 
-      <div class="col-span-2 sticky">
+      <div class="col-span-2 hidden md:block sticky ">
         <div class="sticky top-10">
           <p class="mb-3">Share:</p>
           <div>
@@ -37,20 +37,23 @@
           </div>
         </div>
       </div>
+
       <div class="col-span-7">
-        <div class="grid grid-cols-5">
-          <div class="border-r border-black ">
+
+        <div class="grid grid-cols-1 md:grid-cols-3">
+          <div class="border-b md:border-b-0 md:border-r border-black pb-4">
             <h6>Ditulis oleh:</h6>
             <p>Jeliana Seliatuw</p>
           </div>
-          <div class="ml-10 col-span-2">
+          <div class="col-span-2 md:ml-10 pt-4 md:pt-0">
             <h6>Ditinjau oleh:</h6>
             <p>Siska Darmayanti, S.Si, M.Farm</p>
           </div>
         </div>
+
         <div class="mt-10">
-          <p class="inline">Terakhir Update, January 31, 2023 09:16 am</p>
-          <button class="text-white bg-green-500 px-4 py-1 rounded ml-4">Healthy Eating</button>
+          <p class="block md:inline">Terakhir Update, January 31, 2023 09:16 am</p>
+          <button class="text-white bg-green-500 px-4 py-1 rounded ml-0 mt-3 md:mt-0 md:ml-4">Healthy Eating</button>
         </div>
         <div>
           <h1 class="mt-10 font-bold text-4xl leading-normal">Apa Itu Sugar Craving dan Cara Mengelolanya?</h1>
@@ -83,7 +86,7 @@
   </div>
     <div class="mx-auto px-2 sm:px-12 md:px-24 xl:px-72 bg-black py-20 rounded-b-3xl">
       <h1 class="text-3xl font-bold inline text-white">Artikel Lainnya</h1>
-      <div class="container grid grid-cols-3 gap-5 mt-20">
+      <div class="container grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 z-0">
         <SecondaryCard/>
         <SecondaryCard/>
         <SecondaryCard/>

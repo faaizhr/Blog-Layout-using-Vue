@@ -1,5 +1,5 @@
 <template>
-  <div class="cotainer mx-auto px-6 sm:px-12 md:px-24 xl:px-72 py-2">
+  <div class="px-6 sm:px-8 md:px-8 xl:px-72 mx-auto py-2">
       <div class="py-10 border-b border-black">
         <h1 class="font-bold text-2xl">dentsu Indonesia</h1>
       </div>

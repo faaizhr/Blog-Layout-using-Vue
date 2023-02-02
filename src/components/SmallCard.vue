@@ -11,7 +11,10 @@
           <button class="text-white bg-green-500 px-4 py-1 rounded text-sm w-fit mt-2 md:mt-0" >Healthy Eating</button>
         </div>
         <h6 class="my-3 text-md md:text-xl font-semibold">Apa Itu Sugar Craving dan Cara Mengelolanya?</h6>
-        <router-link to="/detail" class="font-semibold text-sm md:text-base text-gray-500">Selengkapnya</router-link>
+        <router-link to="/detail" class="font-semibold text-sm md:text-base text-gray-500">
+          Selengkapnya
+          <font-awesome-icon icon="fa-solid fa-arrow-right" class="ml-1"/>
+        </router-link>
       </div>
     </div>
   </div>
