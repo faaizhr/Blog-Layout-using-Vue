@@ -5,11 +5,11 @@
     </div>
     <div class="pt-3">
       <div class="flex justify-end">
-        <button class="text-white bg-green-500 px-4 py-1 rounded">Healthy Eating</button>
+        <button class="text-white bg-green-500 px-4 py-1 rounded text-sm">Healthy Eating</button>
       </div>
       <div class="mt-2">
         <h6 class="my-3 text-lg font-semibold  text-white">Apa Itu Sugar Craving dan Cara Mengelolanya?</h6>
-        <router-link to="/detail" class="font-bold text-white">Selengkapnya</router-link>
+        <router-link to="/detail" class="font-bold text-white text-sm md:text-base">Selengkapnya</router-link>
       </div>
     </div>
   </div>
