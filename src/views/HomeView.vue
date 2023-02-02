@@ -60,7 +60,7 @@ export default {
       <div class="mb-20">
         <div class="my-10 grid grid-cols-1 md:grid-cols-2 mb-10 items-center">
           <h1 class="text-3xl font-bold text-center md:text-left mb-5 md:mb-0">Bacaan Untukmu</h1>
-          <input type="text" placeholder="CARI..." class="rounded-xl px-4 max-w-none md:max-w-xs h-10 border border-green-900 bg-transparent md:ml-auto"/>
+          <input type="text" placeholder="CARI..." class="rounded-xl px-4 max-w-none focus:outline-none md:max-w-xs h-10 border border-green-900 bg-transparent md:ml-auto"/>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -139,4 +139,5 @@ export default {
     color: white;
     fill: white;
   }
+
 </style>
